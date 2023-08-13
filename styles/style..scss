@@ -1,9 +1,18 @@
-* {
-    box-sizing: border-box;
-    font-size: 16px;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    :root {
+        --primary-color: #f25f3a;
+        --secondary-color: #242e52;
+        --tertiary-color: #b3b2b7;
+    }
+
+    * {
+        box-sizing: border-box;
+
+        font: {
+        size: 16px;
+        family: 'Be Vietnam Pro', sans-serif;
+        family: 'Pathway Gothic One', sans-serif;
+        family: 'Roboto', sans-serif;
+    } 
 }
 
 body {
@@ -12,16 +21,14 @@ body {
     margin: 2rem 0;
 }
 
-/* ------------- HEADER ------------ */
-
 .nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 2rem;
-    padding: 1rem;
-}
+    padding: 1rem; 
+} 
 
 .nav ul {
     display: flex;
@@ -869,17 +876,4 @@ line-height: 18px;
     width: 4rem;
 
 }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
